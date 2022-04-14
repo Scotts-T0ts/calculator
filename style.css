@@ -1,0 +1,63 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(120deg, #434343, #000000);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .name {
+    width: 360px;
+    text-align: center;
+    padding-bottom: 15px;
+    color: white;
+    font-family:"Segoe UI", sans-serif;
+  }
+  .container {
+    width: 360px;
+    padding: 15px;
+    margin-top: 40px;
+    background: rgb(61, 60, 60);
+    border-radius: 30px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+  }
+  .container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 30px;
+    font-family:"Segoe UI", sans-serif;
+    outline: none;
+    text-align: center;
+    height: 75px;
+    color: black;
+    background: white;
+    border: 2.5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 40px;
+  }
+
+  .container input[type="button"] {
+    outline: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    height: 65px;
+    color: rgb(255, 255, 255);
+    width: calc(100% / 4 - 5px);
+    background: transparent;
+    box-shadow: 0 20px 50px rgba(240, 239, 239, 0.1);
+    border-radius: 50px;
+    margin-top: 20px;
+    box-shadow: rgba(241, 237, 237, 0.35) 0px 5px 15px;
+  }
+  .container input[type="button"]:hover {
+    background: rgba(78, 76, 76, 0.1);
+  } 
